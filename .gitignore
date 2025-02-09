@@ -23,7 +23,7 @@ backend/mallapi/*.jar
 backend/mallapi/*.war
 
 # Backend의 application.yml을 Git에 포함하지 않음 (보안 설정)
-backend/mallapi/src/main/resources/application.yml
+#backend/mallapi/src/main/resources/application.yml
 
 # 🛑 Frontend (React) 관련 무시할 파일
 frontend/node_modules/
