@@ -1,0 +1,41 @@
+# 공통적으로 무시할 파일
+.DS_Store
+node_modules/
+dist/
+.env
+*.log
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# Backend (Spring Boot) 관련 무시할 파일
+backend/target/
+backend/.gradle/
+backend/.idea/
+backend/out/
+backend/logs/
+backend/temp/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/*.jar
+backend/*.war
+
+# Backend의 application.yml을 Git에 포함하지 않음 (보안 설정)
+backend/src/main/resources/application.yml
+
+# Frontend (React) 관련 무시할 파일
+frontend/node_modules/
+frontend/build/
+frontend/.next/
+frontend/.nuxt/
+frontend/.parcel-cache/
+frontend/yarn.lock
+frontend/package-lock.json
+frontend/coverage/
+frontend/.eslintcache
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
