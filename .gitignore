@@ -1,4 +1,4 @@
-# 공통적으로 무시할 파일
+# 🛑 공통적으로 무시할 파일
 .DS_Store
 node_modules/
 dist/
@@ -9,23 +9,23 @@ dist/
 .vscode/
 *.swp
 
-# Backend (Spring Boot) 관련 무시할 파일
-backend/target/
-backend/.gradle/
-backend/.idea/
-backend/out/
-backend/logs/
-backend/temp/
-backend/.mvn/
-backend/mvnw
-backend/mvnw.cmd
-backend/*.jar
-backend/*.war
+# 🛑 Backend (Spring Boot) 관련 무시할 파일 (mallapi 적용)
+backend/mallapi/target/
+backend/mallapi/.gradle/
+backend/mallapi/.idea/
+backend/mallapi/out/
+backend/mallapi/logs/
+backend/mallapi/temp/
+backend/mallapi/.mvn/
+backend/mallapi/mvnw
+backend/mallapi/mvnw.cmd
+backend/mallapi/*.jar
+backend/mallapi/*.war
 
 # Backend의 application.yml을 Git에 포함하지 않음 (보안 설정)
-backend/src/main/resources/application.yml
+backend/mallapi/src/main/resources/application.yml
 
-# Frontend (React) 관련 무시할 파일
+# 🛑 Frontend (React) 관련 무시할 파일
 frontend/node_modules/
 frontend/build/
 frontend/.next/
